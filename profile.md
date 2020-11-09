@@ -20,7 +20,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)
   * [Profile definition in RDF](#profile-definition-in-rdf)
   * [Profile definition in HTML](#profile-definition-in-html)
   * [Profile code repository](#profile-code-repository)
-  * [Profile validator in RDF](https://w3id.org/profile/chekatest/validator)
+  * [Profile validator in RDF](#profile-validator-in-rdf)
 ### Description
 
 
