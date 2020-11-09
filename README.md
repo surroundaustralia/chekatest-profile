@@ -57,6 +57,7 @@ URI | `https://w3id.org/profile/chekatest/validator`
 Description | The profile's sole SHACL validator, in RDF, Turtle format
 Artifact | [https://w3id.org/profile/chekatest/validator.ttl](https://w3id.org/profile/chekatest/validator.ttl)
 Conforms to |[https://www.w3.org/TR/shacl/](https://www.w3.org/TR/shacl/) <br />
+Roles(s) |[role:validation](http://www.w3.org/ns/dx/prof/role/validation) <br />
 
 
 
