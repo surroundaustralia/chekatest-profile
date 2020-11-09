@@ -22,7 +22,7 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)
   * [Profile code repository](#profile-code-repository)
   * [Profile validator in RDF](#profile-validator-in-rdf)
 ### Description
-
+A profile designed to be used for Cheka program testing. This profile provides a single resource, in addition to its own definition, which is a SHACL validator to check for a void:Dataset's modified date.
 
 
 ## Resource Descriptors
