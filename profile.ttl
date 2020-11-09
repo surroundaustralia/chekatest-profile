@@ -9,7 +9,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://w3id.org/profile/chekatest>
   a prof:Profile ;
   dcterms:title "Cheka Test Profile"@en ;
-  dcterms:description "A profile desinged to be used for Cheka program testing. This profile provides a single resource, in addition to its own definition, which is a SHACL validator to check for a void:Dataset's modified date" ;
+  dcterms:description "A profile designed to be used for Cheka program testing. This profile provides a single resource, in addition to its own definition, which is a SHACL validator to check for a void:Dataset's modified date" ;
   dcterms:creator <https://surroundaustralia.com> ;
   dcterms:created "2020-11-09"^^xsd:date ;
   dcterms:modified "2020-11-09"^^xsd:date ;
