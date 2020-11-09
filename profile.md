@@ -7,21 +7,19 @@ Markdown documentation created by [pyLODE](http://github.com/rdflib/pyLODE)
 * **URI**
   * `https://w3id.org/profile/chekatest`
 * **Publisher(s)**
-  * None
+  * [SURROUND Australia Pty Ltd](https://surroundaustralia.com)
 * **Creators(s)**
-  * None
+  * [SURROUND Australia Pty Ltd](https://surroundaustralia.com)
 * **Created**
   * 2020-11-09
 * **Modified**
   * 2020-11-09
-* **Source**
-  * 
 * **Profile RDF**
-  * 
+  * https://github.com/surroundaustralia/chekatest-profile/blob/main/profile.ttl
 * **Has Resource Descriptor(s)**
-  * [Profile definition in RDF](ub1bL17C20)
-  * [Profile definition in HTML](ub1bL26C5)
-  * [Profile code repository](ub1bL36C5)
+  * [Profile definition in RDF](#profile-definition-in-rdf)
+  * [Profile definition in HTML](#profile-definition-in-html)
+  * [Profile code repository](#profile-code-repository)
   * [Profile validator in RDF](https://w3id.org/profile/chekatest/validator)
 ### Description
 
