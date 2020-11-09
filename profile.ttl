@@ -51,3 +51,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   dcterms:format <https://w3id.org/mediatype/text/turtle> ;
   prof:hasArtifact <https://w3id.org/profile/chekatest/validator.ttl> ;
 .
+
+<https://surroundaustralia.com>
+    a sdo:Organization ;
+    sdo:name "SURROUND Australia Pty Ltd" ;
+.
