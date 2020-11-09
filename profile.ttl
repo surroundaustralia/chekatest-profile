@@ -1,0 +1,53 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX role: <http://www.w3.org/ns/dx/prof/role/>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+<https://w3id.org/profile/chekatest>
+  a prof:Profile ;
+  dcterms:title "Cheka Test Profile"@en ;
+  dcterms:description "A profile desinged to be used for Cheka program testing. This profile provides a single resource, in addition to its own definition, which is a SHACL validator to check for a void:Dataset's modified date" ;
+  dcterms:creator <https://surroundaustralia.com> ;
+  dcterms:created "2020-11-09"^^xsd:date ;
+  dcterms:modified "2020-11-09"^^xsd:date ;
+  dcterms:publisher <https://surroundaustralia.com>  ;
+  sdo:codeRepository <https://github.com/surroundaustralia/chekatest-profile> ;
+  prof:hasResource [
+        a prof:ResourceDescriptor ;
+        dcterms:title "Profile definition in RDF" ;
+        dcterms:description "The profile, in RDF, Turtle format" ;
+        prof:hasRole role:specification ;
+        dcterms:conformsTo <https://www.w3.org/TR/dx-prof/> ;
+        dcterms:format <https://w3id.org/mediatype/text/turtle> ;
+        prof:hasArtifact <https://w3id.org/profile/chekatest.ttl> ;
+    ] ,
+    [
+        a prof:ResourceDescriptor ;
+        dcterms:title "Profile definition in HTML" ;
+        dcterms:description "The profile, in HTML format" ;
+        prof:hasRole role:guidance ;
+        dcterms:conformsTo <https://www.w3.org/TR/dx-prof/> ;
+        dcterms:format <https://w3id.org/mediatype/text/html> ;
+        prof:hasArtifact <https://w3id.org/profile/chekatest.html> ;
+    ] ,
+    <https://w3id.org/profile/chekatest/validator> ,
+    [
+        a prof:ResourceDescriptor ;
+        dcterms:title "Profile code repository" ;
+        dcterms:description "A GitHub-bsed Git repository containign all of this profile's information" ;
+        prof:hasRole role:guidance ;
+        prof:hasArtifact <https://github.com/surroundaustralia/chekatest-profile> ;
+    ] ;
+.
+
+<https://w3id.org/profile/chekatest/validator>
+  a prof:ResourceDescriptor ;
+  dcterms:title "Profile validator in RDF" ;
+  dcterms:description "The profile's sole SHACL validator, in RDF, Turtle format" ;
+  dcterms:conformsTo <https://www.w3.org/TR/shacl/> ;
+  dcterms:format <https://w3id.org/mediatype/text/turtle> ;
+  prof:hasArtifact <https://w3id.org/profile/chekatest/validator.ttl> ;
+.
