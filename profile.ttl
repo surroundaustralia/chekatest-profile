@@ -47,6 +47,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   a prof:ResourceDescriptor ;
   dcterms:title "Profile validator in RDF" ;
   dcterms:description "The profile's sole SHACL validator, in RDF, Turtle format" ;
+  prof:hasRole role:validation ;
   dcterms:conformsTo <https://www.w3.org/TR/shacl/> ;
   dcterms:format <https://w3id.org/mediatype/text/turtle> ;
   prof:hasArtifact <https://w3id.org/profile/chekatest/validator.ttl> ;
